@@ -47,6 +47,7 @@
         <img src="./images/img2.png" alt="frontback">
     </div>
 
+
     <div class="body3">
         <div id="body31">
             <img src="./images/logo1.png" alt="logo1" height="40"> <p id="body32">WATCH</p>
@@ -71,7 +72,7 @@
             <p id="body401">Offer Ends 9/27</p>
             <p id="body402">Buy a Mac or iPad for<br />
             college. Get AirPods.<sup>1</sup></p>
-            <p><a href="javascript:void(0);" (click)="yourClickEvent();">Save with education pricing &gt;</a></p>
+            <p id="body403"><a href="javascript:void(0);" (click)="yourClickEvent();">Save with education pricing &gt;</a></p>
             <img src="./images/img4.png" alt="hello" />
         </div>
         
@@ -79,7 +80,7 @@
             <p id="body410">iPad <span id="body411">mini</span></p>
             <p id="body412">Mega power. Mini sized.</p>
             <p id="body413">Available starting 9.24</p>
-            <div>
+            <div style="display: flex; width: 50%; justify-content: space-around;">
                 <a href="javascript:void(0);" (click)="yourClickEvent();">Learn more &gt;</a> <a href="javascript:void(0);" (click)="yourClickEvent();">Order &gt;</a>
             </div>
             <img src="./images/img5.png" alt="hand" />
@@ -87,23 +88,34 @@
 
     </div>
 
-        <div class="body5">
-            <div id="body51">iMac</div>
-            <div id="body52">Say hello.</div>
-            <div class="id"><a href="">Learn more &gt;</a> <a href="">Buy &gt;</a></div>
-            <img id="body53" src="./images/img6.png" width="500" height="268" alt="iMac">
-        </div>
-        <div class="body6">
-            <div id="body61">
-                <img src="./images/logo1.png" alt="logo1" height="30"> <p id="body62">Fitness+</p>
-            </div>
-            <div id="body63">Pilates, Group Workouts,</div>
-            <div id="body64">and guided Meditation coming soon.</div>
-            <div class="id"><a href="">Learn more &gt;</a> <a href="">Try it free<sup>2</sup></a></div>
-            <img id="body65" src="./images/img7.png" alt="Fitness man" width="500" height="268">
+
+    <div class="body5">
+
+        <div class="body50">
+            <p id="body501">iMac</p>
+            <p id="body502">Say hello.</p>
+            <p style="display: flex; width: 30%; justify-content: space-around;">
+                <a href="javascript:void(0);" (click)="yourClickEvent();" >Learn more &gt;</a> <a href="javascript:void(0);" (click)="yourClickEvent();" >Buy &gt;</a>
+            </p>
+            <img src="./images/img6.png" alt="iMac" />
         </div>
 
-        <div style="height: fit-content; width:100%; display: flex; justify-content: space-evenly; border: 2px solid blue;">
+        <div class="body51">
+            <div id="body510">
+                <img src="./images/logo1.png" alt="logo1" height="33"> <p id="body511"> Fitness+</p>
+            </div>
+            <p id="body512">Pilates, Group Workouts,<br />
+            and guided Meditation coming soon.
+            </p>
+            <p style="display: flex; width: 40%; justify-content: space-around;">
+                <a href="javascript:void(0);" (click)="yourClickEvent();">Learn more &gt;</a> <a href="javascript:void(0);" (click)="yourClickEvent();">Try it free</a>
+            </p>
+            <img id="img" src="./images/img7.png" alt="Fitness man" />
+        </div>
+
+    </div>
+
+        <!-- <div style="height: fit-content; width:100%; display: flex; justify-content: space-evenly; border: 2px solid blue;">
             <div class="body7" style="border: 1px red solid;">
                 <div id="body71" style="border: blue solid;">
                     <img src="./images/logo1.png" alt="logo1" height="30"> <p id="body72">Card</p>
@@ -116,7 +128,7 @@
             <div class="body8">
                 <img src="./images/img9.png" width="100%" alt="show">
             </div>
-        </div>
+        </div> -->
 
 </body>
 </html>
