@@ -422,6 +422,7 @@ ul > li{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    min-height: 80px;
 }
 .footer31 p {
     width: fit-content;
@@ -472,11 +473,15 @@ cursor: pointer;
         width: 95%;
     }
     .footer2 ul li{
-        font-size: 10px;
+        font-size: 10px !important;
     }
-    .footer2{
-        flex-wrap: wrap;
+    .footer31{
+        flex-direction: column-reverse;
     }
+    .footer31 ul{
+        width: 100%;
+    }
+
     .body5{
         flex-direction: column;
         height: fit-content;
@@ -493,6 +498,10 @@ cursor: pointer;
         height: 465.83px;
         margin-top: 5px;
     }
+    .body51 img{
+        max-height: 250px !important;
+    }
+
 
     .body6{
         flex-direction: column;
