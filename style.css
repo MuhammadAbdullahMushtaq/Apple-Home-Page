@@ -469,17 +469,24 @@ cursor: pointer;
 
 
 @media only screen and (max-width: 980px) {
-    .footer1, .footer2, .footer3 {
+    .footer1, .footer3 {
         width: 95%;
     }
+    .footer2{
+        width: 100%;
+    }
     .footer2 ul li{
-        font-size: 10px !important;
+        font-size: .5em !important;
     }
     .footer31{
         flex-direction: column-reverse;
+        font-size: 2em;
     }
     .footer31 ul{
         width: 100%;
+    }
+    .footer31 ul li{
+        font-size: .8em !important;
     }
 
     .body5{
