@@ -469,6 +469,10 @@ cursor: pointer;
 
 
 @media only screen and (max-width: 980px) {
+    .back-to-top .btn-dark {
+        width: 45px;
+        height: 45px;
+    }
     .footer1, .footer3 {
         width: 95%;
     }
